@@ -9,21 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous">
-    <title>Proyecto Comics</title>
-    
+    <title>Proyect Comics</title>
+
 </head>
 
 <body>
 
     <!-- --------------------Header y Hero--------------------------- -->
 
-    <header>
-        LOGO MARVEL
-        <h1> ADA COMICS </h1>
+    <header >
+        <h1 class="ada-title center"> ada comics</h1>
     </header>
 
     <div class="container-hero">
-        <img src="" alt="" />
+        <img src="./images/hero.jpg" alt="" />
     </div>
 
     <!-- 
@@ -38,10 +37,10 @@
             <form action="" class="form-search">
                 <label for="search-input" class="search-input-container">
                     <i class="fas fa-search search-icon" aria-hidden="true"> </i>
-                    <input type="text" id="input-search" placeholder="ingresa tu busqueda"
+                    <input class="input-search" type="text" id="input-search" placeholder="ingresa tu busqueda"
                         aria-label="ingresa tu busqueda">
                     </input>
-                    <label for="">
+                    <label class="" for="">
                         TYPE
                         <select name="type" id="type">
                             <option value="comics" selected> COMICS </option>
@@ -63,7 +62,7 @@
 
                 </label>
             </form>
-            <div class="button-container">
+            <!-- <div class="button-container">
                 <button class="home-button">
                     <i class="fas fa-home"> HOME</i>
 
@@ -74,7 +73,7 @@
                         RETURN
                     </i> </button>
 
-            </div>
+            </div> -->
 
 
         </div>
@@ -110,26 +109,29 @@
 
         <button type="button" class="previous-page page-button" aria-label="previous-page">
             <i class="fas fa-angle-left" aria-hidden="true"> </i>
-        </button> 
+        </button>
 
         <button type="button" class="next-page page-button" aria-label="next-page">
             <i class="fas fa-angle-right" aria-hidden="true"> </i>
-        </button> 
+        </button>
 
         <button type="button" class="last-page page-button" aria-label="last-page">
             <i class="fas fa-angle-double-right" aria-hidden="true"> </i>
-        </button> 
+        </button>
 
         <!-- 
 
     -----------------------------------footer------------------------------ -->
 
-    <footer class="footer-container"> 
-        <div> <p>Hecho con mucho ovario por Caro </p> </div>
-    </footer>
+        <footer class="footer-container">
+            <div>
+                <p>Hecho con mucho ovario por Caro </p>
+            </div>
+        </footer>
 
 
     </div>
 </body>
 <script src="index.js"></script>
+
 </html>
