@@ -1,0 +1,41 @@
+
+$color-fondo : #dddddd;
+$color-texto : #222831 ; 
+
+
+.img {
+    width: 100%;
+}
+.results-cards-container {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.character-card{ 
+
+display: flex;
+background-color: $color-fondo;
+align-items: center;
+height: 150px;
+border-radius: 10px ;
+width: 25%;
+font-family: $tipografia-principal;
+color: $color-texto;
+overflow: hidden;
+margin: 10px;
+
+}
+
+
+.character-card:hover {
+    transform: scale(1.1);
+    opacity: 1.7;
+    background-color: $color-texto;
+    color: $color-fondo;
+    
+  }
